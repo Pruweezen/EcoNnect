@@ -1,0 +1,43 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# Virtual environment
+venv/
+.env/
+
+# Environment variables
+*.env
+.env.*
+
+# SQLite database files
+*.sqlite
+*.sqlite3
+instance/
+
+# Flask-Migrate migrations (only ignore database itself, keep migrations scripts)
+migrations/versions/__pycache__/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Test & coverage files
+.coverage
+htmlcov/
+
+# Temporary files
+tmp/
+*.tmp
