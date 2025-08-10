@@ -40,8 +40,19 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
  ```
+### 5. Create Your .env File
+```bash
+FLASK_ENV=development
+SECRET_KEY=replace-with-a-real-secret
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=econnnect_db
+DB_USER=econnnect_user
+DB_PASSWORD= (your pass here)
 
-### 5. Initialize the Database (First Time Only)
+ ```
+
+### 6. Initialize the Database (First Time Only)
 ```bash
 flask db init
 flask db migrate -m "Initial migration"
