@@ -59,9 +59,9 @@ flask db migrate -m "Initial migration"
 flask db upgrade
  ```
 
-### 6. Run the App
+### 6. Run the App (Jobseeker-side)
 ```bash
-flask run
+py run_jobseeker.py
  ```
 
 ## Branch Workflow (For Collaborators)
